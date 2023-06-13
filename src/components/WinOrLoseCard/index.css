@@ -1,0 +1,55 @@
+/* Write your code here. */
+.win-loss-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d6d6ef;
+  border: 1px solid #e8e8f6;
+  border-radius: 15px;
+  width: 80%;
+}
+.win-loss-img {
+  order: 1;
+}
+.win-loss-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.result-text {
+  color: #ffffff;
+  font-size: 40px;
+  margin: 25px;
+}
+.sub-result {
+  font-size: 30px;
+  color: #ffffff;
+  margin: 5px;
+}
+.points {
+  color: #6a59ff;
+  font-size: 27px;
+  margin: 5px;
+  font-weight: 600;
+}
+.play-again-btn {
+  background-color: #ffce27;
+  border-style: none;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .win-loss-card {
+    width: 60%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .win-loss-img {
+    order: 0;
+  }
+}

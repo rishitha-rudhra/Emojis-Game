@@ -1,0 +1,29 @@
+/* Write your code here. */
+.emoji-card {
+  background-color: #d6d6ef;
+  border: 1px solid #d6d6ef;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.emoji-btn {
+  background-color: transparent;
+  border-style: none;
+}
+
+@media screen and (max-width: 767px) {
+  .emoji-card {
+    width: 32%;
+    background-color: #d6d6ef;
+    border: 1px solid #d6d6ef;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: transparent;
+  }
+}

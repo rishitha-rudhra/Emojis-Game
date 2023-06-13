@@ -1,0 +1,27 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.emojis-container {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  min-height: 90vh;
+  padding: 30px 40px 30px 40px;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.win-loss-card-container {
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  min-height: 90vh;
+  padding: 30px 40px 30px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}

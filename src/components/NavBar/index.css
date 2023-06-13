@@ -1,0 +1,30 @@
+/* Write your code here. */
+.nav-container {
+  list-style-type: none;
+  margin-inline-start: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10vh;
+  padding: 10px 15px 10px 15px;
+  background-color: #b1b0d9;
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 700;
+}
+.nav-item-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+}
+.game-name {
+  font-size: 22px;
+}
+.nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 400;
+}
