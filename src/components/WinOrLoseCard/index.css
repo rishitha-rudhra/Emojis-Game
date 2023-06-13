@@ -8,9 +8,7 @@
   border-radius: 15px;
   width: 80%;
 }
-.win-loss-img {
-  order: 1;
-}
+
 .win-loss-details {
   display: flex;
   flex-direction: column;
@@ -40,6 +38,10 @@
   padding: 10px 15px 10px 15px;
   color: #ffffff;
 }
+.win-loss-img {
+  order: -1;
+  width: 90%;
+}
 
 @media screen and (min-width: 768px) {
   .win-loss-card {
@@ -51,5 +53,6 @@
   }
   .win-loss-img {
     order: 0;
+    width: 45%;
   }
 }
